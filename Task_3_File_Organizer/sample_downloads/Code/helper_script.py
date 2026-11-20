@@ -1,0 +1,1 @@
+Sample content for helper_script.py

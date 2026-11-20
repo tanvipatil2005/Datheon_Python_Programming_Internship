@@ -1,0 +1,94 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "\\bhi\\b",
+                "\\bhello\\b",
+                "\\bhey\\b",
+                "\\bgood morning\\b",
+                "\\bgood evening\\b"
+            ],
+            "response": "Hello! Welcome to Datheon Support Assistant. How can I help you today? (Ask about business hours, products, pricing, orders, or support)"
+        },
+        {
+            "tag": "business_hours",
+            "patterns": [
+                "\\bhours\\b",
+                "\\btiming\\b",
+                "\\bopen\\b",
+                "\\bclose\\b",
+                "\\bworking days\\b",
+                "\\bschedule\\b"
+            ],
+            "response": "Our support team is available Monday through Saturday, from 9:00 AM to 6:00 PM IST. We are closed on Sundays and public holidays."
+        },
+        {
+            "tag": "products_services",
+            "patterns": [
+                "\\bproduct\\b",
+                "\\bservice\\b",
+                "\\boffer\\b",
+                "\\bfeatures\\b",
+                "\\bwhat do you do\\b",
+                "\\bcatalog\\b"
+            ],
+            "response": "We provide cloud automation tools, AI analytics dashboards, and custom enterprise software solutions."
+        },
+        {
+            "tag": "pricing",
+            "patterns": [
+                "\\bprice\\b",
+                "\\bpricing\\b",
+                "\\bcost\\b",
+                "\\bplan\\b",
+                "\\bsubscription\\b",
+                "\\bfee\\b"
+            ],
+            "response": "We offer a Free Starter tier, a Pro Plan at $19/month, and custom Enterprise licensing. Type 'contact' if you'd like a custom quote."
+        },
+        {
+            "tag": "order_tracking",
+            "patterns": [
+                "\\border\\b",
+                "\\btrack\\b",
+                "\\bdelivery\\b",
+                "\\bstatus\\b",
+                "\\bshipping\\b"
+            ],
+            "response": "You can track your order anytime using the tracking ID sent to your registered email, or share your Order ID here for a quick status lookup."
+        },
+        {
+            "tag": "refund_returns",
+            "patterns": [
+                "\\brefund\\b",
+                "\\breturn\\b",
+                "\\bcancel\\b",
+                "\\bpolicy\\b"
+            ],
+            "response": "We offer a 14-day hassle-free refund and cancellation policy on all standard subscriptions and products."
+        },
+        {
+            "tag": "contact_support",
+            "patterns": [
+                "\\bcontact\\b",
+                "\\bemail\\b",
+                "\\bphone\\b",
+                "\\bhuman\\b",
+                "\\bagent\\b",
+                "\\bhelp\\b"
+            ],
+            "response": "You can reach a human specialist at support@datheon.example.com or call our helpline at +91-800-555-0199."
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "\\bthank\\b",
+                "\\bthanks\\b",
+                "\\bappreciate\\b",
+                "\\bhelpful\\b"
+            ],
+            "response": "You're very welcome! Let me know if there is anything else I can assist you with."
+        }
+    ]
+}
